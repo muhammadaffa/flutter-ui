@@ -1,0 +1,13 @@
+body: Column(
+  children: [
+    Text("Judul", style: TextStyle(fontSize: 24)),
+    Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: [
+        Icon(Icons.home),
+        Icon(Icons.star),
+        Icon(Icons.settings),
+      ],
+    )
+  ],
+)
